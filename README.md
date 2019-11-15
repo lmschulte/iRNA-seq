@@ -9,10 +9,10 @@ Installation:
 To install the iRNA-seq pipeline you must download all available files.
 
 The following softwares need to be installed and executable:
-    R software: Please see http://www.r-project.org/ for instructions on installation.
-	  edgeR package: Please see http://www.bioconductor.org/ for instructions on edgeR installation within R.
-	  featureCounts: Part of teh Subread package, please see http://subread.sourceforge.net/ for installation.
-	  bedToGenePred and genePredToGtf: Only needed if adding a new genome, included in iRNA folder or see http://hgdownload.cse.ucsc.edu/admin/exe/ for installation. 
+	R software: Please see http://www.r-project.org/ for instructions on installation.
+	edgeR package: Please see http://www.bioconductor.org/ for instructions on edgeR installation within R.
+	featureCounts: Part of teh Subread package, please see http://subread.sourceforge.net/ for installation.
+	bedToGenePred and genePredToGtf: Only needed if adding a new genome, included in iRNA folder or see http://hgdownload.cse.ucsc.edu/admin/exe/ for installation. 
 
 This pipeline utilizes Perl. 
 
