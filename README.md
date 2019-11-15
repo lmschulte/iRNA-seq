@@ -2,7 +2,7 @@
 
 Description: 
 
-iRNA-seq utilizes intron coverage to determine genome-wide transcriptional activity. This pipeline has been adapted for use with genomes not available through the UCSC Genome Browser. For genomes included in the UCSC Genome Browser see (Madsen et al, 2015) [link?]. 
+iRNA-seq utilizes intron coverage to determine genome-wide transcriptional activity. This pipeline has been adapted for use with genomes not available through the UCSC Genome Browser. For genomes included in the UCSC Genome Browser see (Madsen et al., 2015) [link?]. 
 
 Installation:
 
