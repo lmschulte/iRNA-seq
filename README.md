@@ -2,7 +2,9 @@
 
 Description: 
 
-iRNA-seq utilizes intron coverage to determine genome-wide transcriptional activity. This pipeline has been adapted for use with genomes not available through the UCSC Genome Browser. For genomes included in the UCSC Genome Browser see (Madsen et al., 2015) [link?]. 
+iRNA-seq utilizes intron coverage to determine genome-wide transcriptional activity. This pipeline has been adapted for use with genomes not available through the UCSC Genome Browser. For genomes included in the UCSC Genome Browser see (Madsen et al, 2015). 
+
+Madsen, J. G., Schmidt, S. F., Larsen, B. D., Loft, A., Nielsen, R., & Mandrup, S. (2015). iRNA-seq: computational method for genome-wide assessment of acute transcriptional regulation from total RNA-seq data. Nucleic acids research, 43(6), e40. https://doi.org/10.1093/nar/gku1365
 
 Installation:
 
@@ -20,7 +22,7 @@ Usage:
 
 For the best results, iRNA-seq analysis should only be performed with total RNA-seq samples that have undergone rRNA depletion. These samples will have a higher quantity of intronic reads than samples that have undergone poly(A) selection for mRNA. 
 
-Work within the iRNA directory. Download the SAM or BAM files to be analyzed to the iRNA directory (SAM or BAM files should be aligned to the genome you will be using).  
+Work within the iRNA directory. Download the SAM or BAM files to be analyzed to the iRNA directory (SAM or BAM files should be aligned to the genome you will be using). Files for alignments are available in the "Genomes" folder.  
 
 $ perl iRNA_###.pl -a [ Condition A SAM/BAM files ] -b [ Condition B SAM/BAM files ] -group [ Grouping levels ] -g [Genome] -count [ exon, intron, gene or pol ] -p [ # processes ] -s [ 0 = unstranded (Default), 1 = stranded, 2 = reversely stranded ] -n [ name ] -dir [ directory to output results to ]
 
@@ -40,8 +42,8 @@ $ perl iRNA_###.pl -a [ Condition A SAM/BAM files ] -b [ Condition B SAM/BAM fil
 		-dir 		: Path to directory to output results to. Default = Current directory
 		-pe 		: Indicate if data is paired-end or not. Options are 'yes' or 'no'. Default = no. For paired-end files please sort them by queryname.
 
-To add new genomes not available through the UCSC Genome Browser, use the AddNewGenome.sh script. The AddNewGenome.sh script must be edited at Lines 6, 13, 18, 431, 491, 511, 512, and 513. You will need to build the Gene.Dump and mRNA.Dump files for your genome and add them to the tmp folder before use. The Analyze.R script must be modified to accommodate genome gene ID lengths. Example scripts and tables are in the tbls folder. See our paper for further details on adding genomes (________CITE_______). For genomes available through the UCSC Genome Browser, please see (Madsen et al., 2015) to add genomes.
+To add new genomes not available through the UCSC Genome Browser, use the "AddNewGenome.sh" script. The "AddNewGenome.sh" script must be edited at Lines 6, 13, 18, 431, 491, 511, 512, and 513. You will need to build the "Gene.Dump" and "mRNA.Dump" files for your genome and add them to the "tmp" folder before use. The "Analyze.R" script must be modified to accommodate genome gene ID lengths. Example scripts and tables are in the "tbls" folder. See our paper for further details on adding genomes (_______CITE_______). For genomes available through the UCSC Genome Browser, please see (Madsen et al, 2015) to add genomes.
 
 Citiation:
 
-Please cite ________________________our paper__________________________________________
+Please cite ________________________our paper_______________________________________
