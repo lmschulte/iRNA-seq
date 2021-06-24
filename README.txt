@@ -19,6 +19,8 @@ The following softwares need to be installed and executable:
 
 Files compressed in the "data" folder must be decompressed before use (only need the files for your genome build to be decompressed).
 
+See the "README_Genomes.txt" for more information about the genome builds and doing sequence alignments. 
+
 This pipeline utilizes Perl. 
 
 Usage:
