@@ -50,4 +50,4 @@ To add new genomes not available through the UCSC Genome Browser, use the "AddNe
 
 Citiation:
 
-Please cite ----to be added----
+Please cite ----paper to be added----
