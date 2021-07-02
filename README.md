@@ -46,8 +46,8 @@ $ perl iRNA_###.pl -a [ Condition A SAM/BAM files ] -b [ Condition B SAM/BAM fil
 		-dir 		: Path to directory to output results to. Default = Current directory
 		-pe 		: Indicate if data is paired-end or not. Options are 'yes' or 'no'. Default = no. For paired-end files please sort them by queryname.
 
-To add new genomes not available through the UCSC Genome Browser, use the "AddNewGenome.sh" script. The "AddNewGenome.sh" script must be edited at Lines 6, 13, 18, 431, 491, 511, 512, and 513. You will need to build the "Gene.Dump" and "mRNA.Dump" files for your genome and add them to the "tmp" folder before use. The "Analyze.R" script must be modified to accommodate genome gene ID lengths. Example scripts and tables are in the "tbls" folder. See our paper for further details on adding other genomes (---CITE---). For genomes available through the UCSC Genome Browser, please see (Madsen et al, 2015) to add genomes.
+To add new genomes not available through the UCSC Genome Browser, use the "AddNewGenome.sh" script. The "AddNewGenome.sh" script must be edited at Lines 6, 13, 18, 431, 491, 511, 512, and 513. You will need to build the "Gene.Dump" and "mRNA.Dump" files for your genome and add them to the "tmp" folder before use. The "Analyze.R" script must be modified to accommodate genome gene ID lengths. Example scripts and tables are in the "tbls" folder. See our paper for further details on adding other genomes (---to be added---). For genomes available through the UCSC Genome Browser, please see (Madsen et al, 2015) to add genomes.
 
 Citiation:
 
-Please cite ----our paper----
+Please cite ----to be added----
